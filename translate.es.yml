@@ -1,0 +1,24 @@
+title: <h2 align='center'>Prediciendo Click del Cliente en Anuncios</h2>
+intro_1: Analizando el comportamiento del cliente en cuanto a hacer **click** en anuncios de redes sociales.
+intro_2: Nuestro objetivo es predecir qué tipo de cliente hará o no hará click en el anuncio.
+title_graph_1: Cliente hizo o no click de acuerdo con el Tiempo que pasó en el Sitio y su Salario
+Time Spent on Site: Tiempo transcurrido en el Sitio
+Salary: Salario
+Count: Núm. de ocurrencias
+comment_graph_1: como podemos ver en el gráfico, hay una relación directa entre el tiempo que el cliente pasa en el sitio y su salario y si este cliente hace click o no finalmente.
+cs: Click vs. Salario
+ctss: Click vs. Tiempo transcurrido en el Sitio
+title_graph_2_1: Click vs. Salario
+title_graph_2_2: Click vs. Tiempo transcurrido en el Sitio
+comment_graph_2: Haciendo uso de Boxplot podemos ratificar de forma clara lo mencionado anteriormente.
+Histogram of Salary: Histograma del Salario
+Histogram of Time Spent on Site: Histograma del Tiempo transcurrido en el Sitio
+comment_1_graph_3: En este caso, el 'Núm. de ocurrencias' representa al número de clientes.
+comment_2_graph_3: Estos histogramas nos ayudan a ver la distribución de los clientes con respecto a su salario o a su tiempo consumido en el sitio.
+Train Data: Datos de Entrenamiento
+Test Data: Datos de Prueba
+title_graph_cm: Matriz de Confusión (Predicción Click del Cliente)
+description_graphs: <p align='center'><i>Matriz de Confusión y su correspondiente representación gráfica</i></p>
+title_mesh_graph: Predicción Click del Cliente
+comment_last_1: Las predicciones se han hecho usando un modelo de *Regresión Logística* (junto con una normalización de los datos previa). Para realizar el entrenamiento y prueba del modelo, los datos fueron divididos en dos subconjuntos => **20%** para **prueba** y el **80%** para el **entrenamiento**.
+comment_last_2: Por ejemplo, de acuerdo con el resultado de los **datos de Prueba**, podemos verificar que la **MC** nos da un número de **5 predicciones erróneas** cuando intentó predicir los clientes que **no harían click**. Podemos observar este resultado en la gráfica situada a la derecha, donde cada uno de los dos colores del fondo representan los **datos reales** vs. los puntos que representan las **predicciones**: **0 ('NO hará click')** y **1 ('hará click')**.

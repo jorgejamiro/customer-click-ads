@@ -1,0 +1,24 @@
+title: <h2 align='center'>Predicting Customer's click on Ads</h2>
+intro_1: Analyzing customer's behavior when it comes to **clicking** Ads on social media.
+intro_2: Our goal is to predict what kind of customer will or won't click on the Ad.
+title_graph_1: Customer clicked or didn't click based on Time spent on site and Salary
+Time Spent on Site: Time Spent on Site
+Salary: Salary
+Count: Count
+comment_graph_1: As we can see from this graph, there's a straight relationship between the salary and the time the customer spends on site and whether this customer ends up clicking or not eventually.
+cs: Click vs. Salary
+ctss: Click vs. Time Spent on Site
+title_graph_2_1: Click vs. Salary
+title_graph_2_2: Click vs. Time Spent on Site
+comment_graph_2: Using Boxplot we can endorse clearly our aforementioned statement.
+Histogram of Salary: Histogram of Salary
+Histogram of Time Spent on Site: Histogram of Time Spent on Site
+comment_1_graph_3: In this case, 'count' represents the number of customers.
+comment_2_graph_3: These histograms help us to see customers' distribution regarding to their salary or to their time spent on site.
+Train Data: Train Data
+Test Data: Test Data
+title_graph_cm: Confusion Matrix (Customer's Click Prediction)
+description_graphs: <p align='center'><i>Confusion Matrix and its corresponding graphical representation</i></p>
+title_mesh_graph: Customer's Click Prediction
+comment_last_1: Predictions were made using a *Logistic Regression* model (along with a previous data normalization). In order to train the model, data was divided into two subsets => **20%** for **testing** and **80%** for **training**.
+comment_last_2: For instance, according to the outcome on **Test data**, we can verify that the **CM** gives us a number of **5 wrong predictions** when trying to predict **'non-clicking'** customers. We can observe this result on the right figure, where the colored backgroud represents the **actual data** vs. the dots representing **predictions**: **0 ('will NOT click')** and **1 ('will click')**.
