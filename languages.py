@@ -21,9 +21,8 @@ def load_text(file_path):
 def language_init():
     if 'lng' not in st.session_state:
         st.session_state['lng'] = 'en'
-        i18n.set('locale', 'en')
     
-    lng = i18n.get('locale')
+    lng = st.session_state['lng']
 
     with open(f'./translate.{lng}.yml', encoding='utf-8') as f:
         lines = f.readlines()
